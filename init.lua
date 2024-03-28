@@ -655,14 +655,6 @@ require('lazy').setup({
     config = true,
     opts = {
       transparent_mode = true,
-      bold = false,
-      italic = {
-        strings = false,
-        emphasis = false,
-        comments = false,
-        operators = false,
-        folds = false,
-      },
     },
     init = function()
       vim.o.background = 'dark'
